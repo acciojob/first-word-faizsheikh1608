@@ -1,7 +1,7 @@
 function firstWord(s) {
   // your code here
 	let index = 0
-	while(S[index] == " "){
+	while(S[index] == " "){ 
 		index++
 	} 
 	let str = ''
