@@ -1,12 +1,13 @@
 function firstWord(s) {
   // your code here
 	let index = 0
-	while(S[index] == " "){ 
+	while(S[index] === " "){ 
 		index++
 	} 
 	let str = ''
 	while(s[index] != " "){
 		str += s[index]
+		index++
 	}
 	return str 
 }
