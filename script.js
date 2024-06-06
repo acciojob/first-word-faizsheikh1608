@@ -8,9 +8,8 @@ function firstWord(s) {
 	while(s[index] != " "){
 		str += s[index]
 	}
-	return str
+	return str 
 }
-
 // Do not change the code below
 
 const s = prompt("Enter String:");
