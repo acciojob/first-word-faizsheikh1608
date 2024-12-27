@@ -1,8 +1,8 @@
 function firstWord(s) {
   // your code here
-	const words = s.trim();
 	if(s.length === 0) return s;
-	const arr = s.split(' ');
+	const words = s.trim();
+	const arr = words.split(' ');
 	return arr[0]
 	
 }
