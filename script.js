@@ -1,17 +1,14 @@
 function firstWord(s) {
   // your code here
-	let index = 0
-	while(S[index] === " "){ 
-		index++
-	} 
-	let str = ''
-	while(s[index] != " "){
-		str += s[index]
-		index++
+	if(s.length === 0) return s;
+	const arr = s.split(' ');
+	for(let i = 0; i < arr.length;i++){
+		if(arr[i] !== ""){
+			return arr[i];
+		}
 	}
-	return str 
 }
 // Do not change the code below
 
-const s = prompt("Enter String:");
+const s = prompts("Enter String:");
 alert(firstWord(s));
