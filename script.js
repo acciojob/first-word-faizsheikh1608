@@ -4,7 +4,7 @@ function firstWord(s) {
 	if(s.length === 0) return s;
 	const arr = s.split(' ');
 	return arr[0]
-	}
+	
 }
 // Do not change the code below
 
