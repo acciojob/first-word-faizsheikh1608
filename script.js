@@ -1,11 +1,9 @@
 function firstWord(s) {
   // your code here
+	const words = s.trim();
 	if(s.length === 0) return s;
 	const arr = s.split(' ');
-	for(let i = 0; i < arr.length;i++){
-		if(arr[i] !== ""){
-			return arr[i];
-		}
+	return arr[0]
 	}
 }
 // Do not change the code below
